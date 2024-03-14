@@ -1,0 +1,99 @@
+body{
+    color: #1b1a1a;
+    background: #444242;
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    margin: 0 auto;
+    max-width: 480px;
+    width: 100%;
+    background: transparent;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+ul li:last-child{
+    margin-bottom: 150px;
+}
+
+
+
+ul li {
+    display: flex;
+    justify-content: flex-start;
+    background: #fdfcfc;
+    position: relative;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+}
+
+ul li div img {
+    height: 145px;
+    width: 145px;
+    border: 4px solid #000;
+    border-radius: 50%;
+    margin: 20px;
+    object-fit: fill;
+}
+
+.game-info{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 300px;
+    
+}
+
+.game-info h2 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 0.55rem;
+}
+.game-info h3 {
+    font-size: 0.99rem;
+   
+}
+
+.icon-remove{
+    position: absolute;
+    top: 45%;
+    right: 20px;
+    cursor: pointer;
+    transition: all 0.1s;
+}
+
+.icon-remove:hover{
+    color: #585854;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: #25136e;
+    z-index: 9997;
+    padding: 10px 0;
+}
+
+footer button{
+    background: #7372d5;
+    color: #fff;
+    border: none;
+    border-radius: 35%;
+    padding: 0.45rem;
+    margin: 0.35rem;
+    position: relative;
+    transition: all 0.9s;
+    cursor: pointer;
+}
+
+footer  button:hover{
+    transform: scale(1.5);
+    background: #31a8cc;
+    
+}
